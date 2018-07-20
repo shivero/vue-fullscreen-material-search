@@ -79,6 +79,7 @@
     "last 2 versions",
     "not ie <= 8"
   ],
+
   "keywords": [
     "search",
     "vue",
@@ -86,4 +87,7 @@
     "material",
     "button"
   ]
+
+  "keywords": []
+
 }
