@@ -13,6 +13,7 @@ Vue.component("font-awesome-icon", FontAwesomeIcon);
 
 Vue.config.productionTip = false;
 
+Vue.component("font-awesome-icon", FontAwesomeIcon);
 /* eslint-disable no-new */
 new Vue({
   el: "#app",
