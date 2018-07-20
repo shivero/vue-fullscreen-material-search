@@ -17,6 +17,7 @@
     "@fortawesome/free-solid-svg-icons": "5.1.1",
     "@fortawesome/vue-fontawesome": "0.1.1",
     "node-sass": "4.9.2",
+    "sass-loader": "^7.0.3",
     "vue": "^2.5.2"
   },
   "devDependencies": {
@@ -35,7 +36,7 @@
     "babel-preset-stage-2": "^6.22.0",
     "chalk": "^2.0.1",
     "copy-webpack-plugin": "^4.0.1",
-    "css-loader": "^0.28.0",
+    "css-loader": "^0.28.11",
     "eslint": "^4.15.0",
     "eslint-config-airbnb-base": "^11.3.0",
     "eslint-friendly-formatter": "^3.0.0",
@@ -63,11 +64,11 @@
     "url-loader": "^0.5.8",
     "vue-jest": "^1.0.2",
     "vue-loader": "^13.3.0",
-    "vue-style-loader": "^3.0.1",
+    "vue-style-loader": "^3.1.2",
     "vue-template-compiler": "^2.5.2",
     "webpack": "^3.6.0",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-dev-server": "^2.11.2",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
@@ -79,7 +80,6 @@
     "last 2 versions",
     "not ie <= 8"
   ],
-
   "keywords": [
     "search",
     "vue",
@@ -87,7 +87,4 @@
     "material",
     "button"
   ]
-
-  "keywords": []
-
 }
