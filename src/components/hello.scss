@@ -1,23 +1,21 @@
 $color-header: #24262d;
-$color-button: #961227;
 $color-placeholder: rgba(255, 255, 255, 0.5);
 
-$color-button: #eb5937;
+$color-button: #f57e1f;
 $color-placeholder: rgba(255, 255, 255, 0.4);
 
-$btn-material-size: 60px;
+$btn-size: 60px;
 html,
 body {
   width: 100%;
   height: 100%;
   overflow-x: hidden;
-  background-color: #1c1f26;
-  background-color: #d3cbbd;
+  background-color: #1a171b;
 }
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #1c1919;
+  color: #fff;
   letter-spacing: 0.2px;
 
   &.search-active {
@@ -109,22 +107,21 @@ body {
   padding-right: 50px;
   padding-left: 50px;
   position: relative;
-  width: 1180px;
+  margin: 0 auto;
+  width: 960px;
 }
 
 .control {
   cursor: pointer;
   margin: 0 auto;
   .btn-material {
-    width: $btn-material-size;
-    height: $btn-material-size;
-    // right: $btn-material-size;
+    width: $btn-size;
+    height: $btn-size;
     border-radius: 100%;
     box-sizing: border-box;
     background: $color-button;
     outline: 0;
     padding: 20px;
-    // transform-origin: 50%;
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     &:hover {
