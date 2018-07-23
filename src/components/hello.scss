@@ -5,16 +5,17 @@ $color-button: #f57e1f;
 $color-placeholder: rgba(255, 255, 255, 0.4);
 
 $btn-size: 60px;
+* {
+  color: white;
+}
 html,
 body {
-  width: 100%;
-  height: 100%;
   overflow-x: hidden;
+  width: 100%;
   background-color: #1a171b;
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
   color: #fff;
   letter-spacing: 0.2px;
 
@@ -54,14 +55,17 @@ body {
   &:hover {
     transform: rotate(0);
   }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    font-size: 48px;
+  }
 }
 
 .search-input {
   height: 80px;
   position: absolute;
   top: 50%;
-  left: 50px;
-  margin-top: -40px;
+  // left: 50px;
+  // margin-top: -40px;
   pointer-events: none;
   opacity: 0;
   transform: translate(40px, 0);
@@ -75,7 +79,11 @@ body {
     box-sizing: border-box;
     outline: 0;
     font-weight: 200;
+    @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+      font-size: 32px;
+    }
   }
+
   ::-webkit-input-placeholder {
     /* WebKit, Blink, Edge */
     color: $color-placeholder;
@@ -96,19 +104,10 @@ body {
     /* Microsoft Edge */
     color: $color-placeholder;
   }
-
   ::placeholder {
     /* Most modern browsers support this now. */
     color: $color-placeholder;
   }
-}
-
-.container {
-  padding-right: 50px;
-  padding-left: 50px;
-  position: relative;
-  margin: 0 auto;
-  width: 960px;
 }
 
 .control {

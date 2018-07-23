@@ -17,6 +17,7 @@ export default {
 </script>
 
 <style>
+@import './styles/simple-grid.css';
 #app {
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

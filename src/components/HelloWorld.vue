@@ -2,23 +2,36 @@
 <template>
   <div class="wrapper">
 
-    <div class='container'>
 
-      <div class='control' @click="expandSearch">
-        <div class='btn-material'>
-          <font-awesome-icon icon="search" class="icon-material-search" />
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class='control' @click="expandSearch">
+            <div class='btn-material'>
+              <font-awesome-icon icon="search" class="icon-material-search" />
+            </div>
+          </div>
+          <font-awesome-icon icon="times-circle" class="icon-close" @click="collapseSearch" />
+
+          <div class='search-input'>
+            <input class='input-search' placeholder='Start Typing' type='text'>
+          </div>
+        </div>
+        <div class="col-12">
+
+          <p>
+            Jupiter is the fifth planet from the Sun and the largest in the Solar System.
+          </p>
+        </div>
+        <div class="col-6">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, id.
+        </div>
+        <div class="col-6">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corporis, id.
         </div>
       </div>
-
-      <p>
-        Jupiter is the fifth planet from the Sun and the largest in the Solar System.
-      </p>
     </div>
-    <font-awesome-icon icon="times-circle" class="icon-close" @click="collapseSearch" />
 
-    <div class='search-input'>
-      <input class='input-search' placeholder='Start Typing' type='text'>
-    </div>
 
   </div>
 </template>
