@@ -1,10 +1,14 @@
 # test-project
 
-> A Vue.js project
+> A Vue.js project - simple material search expand animation
+
+## Demo
+
+Demo is available here: [demo](https://shivero.github.io/vue-fullscreen-material-search/dist/)
 
 ## Build Setup
 
-``` bash
+```bash
 # install dependencies
 npm install
 
